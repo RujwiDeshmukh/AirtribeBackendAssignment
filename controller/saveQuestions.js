@@ -1,7 +1,8 @@
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const Question = require("../model/question");
+const {deleteData} = require("./crawler")
 const csvWriter = createCsvWriter({
-  path: "questionList.csv",
+  path: "curatedList.csv",
   header: [
     { id: "name", title: "NAME" },
     { id: "url", title: "URL" },
@@ -30,3 +31,5 @@ exports.saveCsv = async () => {
   }
   process.exit(1);
 };
+
+
