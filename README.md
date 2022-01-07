@@ -38,12 +38,17 @@ So, it ensures that we are making request only 5 times to the crawler function.
 
 1. Clone the git repository  https://github.com/RujwiDeshmukh/AirtribeBackendAssignment.git
   OR
-  Download the zip file download
-  Unzip the downloaded file
+  Download the zip file .
+  Unzip the downloaded file.
+  
 2. Go to directory AirtribeBackendAssignment
    cd  AirtribeBackendAssignment
+   
 3. Congifure .env file
+   update DATABASE variable with ur database uri and DATABASE_PASSWORD with ur database user password.
+   
 4. Install Dependencies
    npm install
+   
 5. Run the script 
    npm run backend
