@@ -7,7 +7,7 @@ const { name, questionURL, ans, n_ans, upvotes } = require("../HTMLAttributes");
 
 const fetchQuestions = async (page, pushArray) => {
   try {
-    console.log("Fteching Q");
+    console.log("Fetching Question");
     const html = await axios.get(`${process.env.QUESTION_WEBSITE}${page}`);
     const $ = cheerio.load(html.data);
     const questions = $(`${questionURL}`)
