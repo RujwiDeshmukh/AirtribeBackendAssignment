@@ -32,3 +32,18 @@ I solved this problem using following approach:-
 
 For handling the concurrency control problem, whenever I found that question list has length greater than 0 then I making request to crawler 5 times .
 So, it ensures that we are making request only 5 times to the crawler function.
+
+
+## Follow the steps to run the project :=>
+
+1. Clone the git repository  https://github.com/RujwiDeshmukh/AirtribeBackendAssignment.git
+  OR
+  Download the zip file download
+  Unzip the downloaded file
+2. Go to directory AirtribeBackendAssignment
+   cd  AirtribeBackendAssignment
+3. Congifure .env file
+4. Install Dependencies
+   npm install
+5. Run the script 
+   npm run backend
